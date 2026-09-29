@@ -1,0 +1,170 @@
+[
+    {
+        "Variable_Name": "Patient_ID",
+        "Domain": "Identifier",
+        "Type": "Categorical",
+        "Unit": "N/A",
+        "Description": "Unique de-identified patient identifier (SMA1_XXX or SMA2_XXX)"
+    },
+    {
+        "Variable_Name": "SMA_Type",
+        "Domain": "Phenotypic Subtype",
+        "Type": "Binary",
+        "Unit": "Type 1 / Type 2",
+        "Description": "Clinical classification based on onset age and milestone attainment"
+    },
+    {
+        "Variable_Name": "SMN2_Copies",
+        "Domain": "Genomics",
+        "Type": "Discrete Integer",
+        "Unit": "Count (2, 3, 4)",
+        "Description": "SMN2 gene copy number determined via MLPA"
+    },
+    {
+        "Variable_Name": "Age_Onset_mo",
+        "Domain": "Chronology",
+        "Type": "Continuous",
+        "Unit": "Months",
+        "Description": "Age at confirmed clinical onset of hypotonia / weakness"
+    },
+    {
+        "Variable_Name": "Treatment_Delay_mo",
+        "Domain": "Chronology",
+        "Type": "Continuous",
+        "Unit": "Months",
+        "Description": "Duration from symptom onset to initial DMT administration"
+    },
+    {
+        "Variable_Name": "Age_Treatment_Start_mo",
+        "Domain": "Chronology",
+        "Type": "Continuous",
+        "Unit": "Months",
+        "Description": "Patient age at initiation of disease-modifying therapy"
+    },
+    {
+        "Variable_Name": "Baseline_CMAP_mV",
+        "Domain": "Neurophysiology",
+        "Type": "Continuous",
+        "Unit": "Millivolts (mV)",
+        "Description": "Baseline ulnar compound muscle action potential amplitude"
+    },
+    {
+        "Variable_Name": "Baseline_Motor_Score",
+        "Domain": "Motor Function",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Raw baseline score on CHOP-INTEND (Type 1) or HFMSE (Type 2)"
+    },
+    {
+        "Variable_Name": "Motor_Scale",
+        "Domain": "Assessment Tool",
+        "Type": "Categorical",
+        "Unit": "Scale Name",
+        "Description": "Standardized scale used (CHOP-INTEND max=64, HFMSE max=66)"
+    },
+    {
+        "Variable_Name": "Normalized_Base_Score",
+        "Domain": "Motor Function",
+        "Type": "Continuous",
+        "Unit": "Percent (%)",
+        "Description": "Baseline motor score normalized to maximum scale points"
+    },
+    {
+        "Variable_Name": "Nutritional_ZScore",
+        "Domain": "Anthropometry",
+        "Type": "Continuous",
+        "Unit": "SD (Z-score)",
+        "Description": "WHO age-adjusted weight-for-age or BMI Z-score"
+    },
+    {
+        "Variable_Name": "NIV_Hours_Daily",
+        "Domain": "Respiratory",
+        "Type": "Continuous",
+        "Unit": "Hours/day",
+        "Description": "Average daily non-invasive ventilation usage"
+    },
+    {
+        "Variable_Name": "Scoliosis_Cobb_deg",
+        "Domain": "Orthopedics",
+        "Type": "Continuous",
+        "Unit": "Degrees (deg)",
+        "Description": "Major coronal spinal curvature Cobb angle on radiograph"
+    },
+    {
+        "Variable_Name": "Treatment",
+        "Domain": "Therapeutics",
+        "Type": "Categorical",
+        "Unit": "4 Classes",
+        "Description": "DMT administered: Nusinersen, Risdiplam, Onasemnogene, or Untreated"
+    },
+    {
+        "Variable_Name": "Score_0m",
+        "Domain": "Longitudinal Outcome",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Baseline motor function score"
+    },
+    {
+        "Variable_Name": "Score_6m",
+        "Domain": "Longitudinal Outcome",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Motor function score at 6 months follow-up"
+    },
+    {
+        "Variable_Name": "Score_12m",
+        "Domain": "Longitudinal Outcome",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Motor function score at 12 months follow-up"
+    },
+    {
+        "Variable_Name": "Score_18m",
+        "Domain": "Longitudinal Outcome",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Motor function score at 18 months follow-up"
+    },
+    {
+        "Variable_Name": "Score_24m",
+        "Domain": "Longitudinal Outcome",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Motor function score at 24 months primary endpoint"
+    },
+    {
+        "Variable_Name": "Delta_Score_6m",
+        "Domain": "Longitudinal Change",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Change in motor score from baseline to 6 months"
+    },
+    {
+        "Variable_Name": "Delta_Score_12m",
+        "Domain": "Longitudinal Change",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Change in motor score from baseline to 12 months"
+    },
+    {
+        "Variable_Name": "Delta_Score_18m",
+        "Domain": "Longitudinal Change",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Change in motor score from baseline to 18 months"
+    },
+    {
+        "Variable_Name": "Delta_Score_24m",
+        "Domain": "Primary Target",
+        "Type": "Continuous",
+        "Unit": "Points",
+        "Description": "Primary outcome: change in motor score from baseline to 24 months"
+    },
+    {
+        "Variable_Name": "Is_Responder",
+        "Domain": "Clinical Response",
+        "Type": "Binary",
+        "Unit": "True / False",
+        "Description": "Attainment of MCID (CHOP >= +4 pts for Type 1, HFMSE >= +3 pts for Type 2)"
+    }
+]

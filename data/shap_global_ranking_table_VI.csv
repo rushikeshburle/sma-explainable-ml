@@ -1,0 +1,13 @@
+Feature Description,"Mean |SHAP| (E[|phi|], pts)",Directional Impact Trend,Mechanistic Pathophysiological Interpretation
+Treatment Initiation Delay (mo),1.18,Negative with Higher Values,Irreversible spinal motor neuron loss prior to rescue.
+Age at Symptom Onset (mo),1.07,Negative with Higher Values,Surrogate for biological aggressiveness and phenotype type.
+Treatment: Untreated Control,1.06,Negative with Higher Values,Natural history trajectory of unmitigated neurodegeneration.
+Normalized Baseline Motor Score (%),0.6,Negative with Higher Values,Defines functional headroom; exhibits psychometric ceiling.
+Treatment: Onasemnogene Abeparvovec,0.43,Positive with Higher Values,"Rapid, systemic SMN replacement drives early motor recovery."
+Daily Baseline NIV Usage (hrs),0.24,Negative with Higher Values,Marker of respiratory diaphragmatic failure and debility.
+Baseline CMAP Amplitude (mV),0.22,Non-linear / Complex,Functional motor unit pool capable of terminal reinnervation.
+Scoliosis Cobb Angle (deg),0.19,Non-linear / Complex,Biomechanical restriction impairing axial motor tasks.
+Nutritional Z-Score,0.16,Non-linear / Complex,Marker of bulbar feeding failure and systemic cachexia.
+Treatment: Risdiplam,0.05,Non-linear / Complex,Systemic small-molecule SMN2 pre-mRNA splicing modifier.
+SMN2 Copy Number,0.03,Positive with Higher Values,Primary genomic modifier governing endogenous SMN levels.
+Phenotypic Subtype: Type 2,0.0,Non-linear / Complex,Categorical baseline distinction between sitters and non-sitters.

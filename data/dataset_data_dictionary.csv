@@ -1,0 +1,25 @@
+Variable_Name,Domain,Type,Unit,Description
+Patient_ID,Identifier,Categorical,N/A,Unique de-identified patient identifier (SMA1_XXX or SMA2_XXX)
+SMA_Type,Phenotypic Subtype,Binary,Type 1 / Type 2,Clinical classification based on onset age and milestone attainment
+SMN2_Copies,Genomics,Discrete Integer,"Count (2, 3, 4)",SMN2 gene copy number determined via MLPA
+Age_Onset_mo,Chronology,Continuous,Months,Age at confirmed clinical onset of hypotonia / weakness
+Treatment_Delay_mo,Chronology,Continuous,Months,Duration from symptom onset to initial DMT administration
+Age_Treatment_Start_mo,Chronology,Continuous,Months,Patient age at initiation of disease-modifying therapy
+Baseline_CMAP_mV,Neurophysiology,Continuous,Millivolts (mV),Baseline ulnar compound muscle action potential amplitude
+Baseline_Motor_Score,Motor Function,Continuous,Points,Raw baseline score on CHOP-INTEND (Type 1) or HFMSE (Type 2)
+Motor_Scale,Assessment Tool,Categorical,Scale Name,"Standardized scale used (CHOP-INTEND max=64, HFMSE max=66)"
+Normalized_Base_Score,Motor Function,Continuous,Percent (%),Baseline motor score normalized to maximum scale points
+Nutritional_ZScore,Anthropometry,Continuous,SD (Z-score),WHO age-adjusted weight-for-age or BMI Z-score
+NIV_Hours_Daily,Respiratory,Continuous,Hours/day,Average daily non-invasive ventilation usage
+Scoliosis_Cobb_deg,Orthopedics,Continuous,Degrees (deg),Major coronal spinal curvature Cobb angle on radiograph
+Treatment,Therapeutics,Categorical,4 Classes,"DMT administered: Nusinersen, Risdiplam, Onasemnogene, or Untreated"
+Score_0m,Longitudinal Outcome,Continuous,Points,Baseline motor function score
+Score_6m,Longitudinal Outcome,Continuous,Points,Motor function score at 6 months follow-up
+Score_12m,Longitudinal Outcome,Continuous,Points,Motor function score at 12 months follow-up
+Score_18m,Longitudinal Outcome,Continuous,Points,Motor function score at 18 months follow-up
+Score_24m,Longitudinal Outcome,Continuous,Points,Motor function score at 24 months primary endpoint
+Delta_Score_6m,Longitudinal Change,Continuous,Points,Change in motor score from baseline to 6 months
+Delta_Score_12m,Longitudinal Change,Continuous,Points,Change in motor score from baseline to 12 months
+Delta_Score_18m,Longitudinal Change,Continuous,Points,Change in motor score from baseline to 18 months
+Delta_Score_24m,Primary Target,Continuous,Points,Primary outcome: change in motor score from baseline to 24 months
+Is_Responder,Clinical Response,Binary,True / False,"Attainment of MCID (CHOP >= +4 pts for Type 1, HFMSE >= +3 pts for Type 2)"
